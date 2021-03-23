@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap'");
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat';
+}
+
+body {
+	background-image: url(../images/prism.png);
+	background-size: cover;
+
+}
+
+/*top page */
+header {
+	height: 25vh;
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-image: url(../images/top.jpg);
+	background-size: cover;
+	position: fixed;
+	}
+
+.gost-menu {
+	height: 25vh;
+	width: 100vw;
+}
+
+h1 {
+	color: white;
+	margin-left: 5px;
+	font-size: 65px;
+
+}
+
+.link {
+	color: white;
+	text-decoration: none;
+	margin-right: 15px;
+
+}
+	.vid{
+color: white;
+	text-decoration: none;
+	margin-right: 15px;
+
+}
+
+.logotypo {
+	margin-left: 25px;
+	display: flex;
+	align-items: center;
+}
+
+
+.Logo {
+	width: 125px;
+	height: 125px;
+}
+
+/*menu*/
+
+.menu {
+	
+	margin-left: 30px;
+}
+
+label {
+	font-size: 40px;
+	display: none;
+}
+
+#switch {
+	display: none;
+}
+
+nav a:hover{
+	background-color: rgb(0 155 255);
+}
+
+@media (max-width: 1100px) {
+	
+	header {
+		display: block;
+	}
+
+	.logotypo {
+		margin-top: 10px;
+		float: left;
+	}
+
+	.link {
+		color: black
+	}
+
+	.vid {
+		display: none;
+	}
+
+	
+
+label{
+	margin-top: 6vh;
+	display: block;
+	float: right;
+}
+.menu {
+		display: none;
+		margin-left: 0px;
+	}
+
+#switch:checked + nav{
+	display: block;
+	clear: both;
+}
+
+nav a {
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: white;
+	color: black;
+	border-bottom: 4px solid black;
+}
+
+nav a:hover{
+	background-color: rgb(0 155 255);
+}
+
+}
+
+
+/*colone centrale*/
+.center {
+	width: 80vw;
+	min-height: 80vh;
+	margin-left: 10vw;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	box-shadow: 0px 0px 15px black;
+	border-radius: 25px;
+	padding-bottom: 25px;
+	background-color: #E5E5E5;
+}
+
+
+/*design typo*/
+
+h2 {
+	text-align: center;
+	font-size: 80px;
+}
+.sub-title {
+	text-align: center;
+	font-size: 50px;
+
+}
+
+@media (max-width: 890px) {
+
+	.Logo {
+		width: 100px;
+		height: 100px;
+	}
+
+	h1{
+		width: 25vw;
+		font-size: 25px;
+		margin-top: -10px;
+	}
+	.center {
+		width: 100vw;
+		margin:0px;
+		box-shadow: none;
+		border-radius: 0px;
+	}
+
+	h2 {
+		font-size: 40px;
+
+	}
+
+	.subtitle {
+		font-size: 20px;
+	}
+}
+
+/*Section 1*/
+
+.info {
+	margin-top: 35px;
+	display: flex;
+	justify-content: space-around;
+	margin: 40px;
+}
+
+
+.icon {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+.items {
+
+	width: 80px;
+
+}
+
+.details {
+	font-size: 25px;
+}
+
+/* Section 2 */
+
+.about-me {
+	font-size: 50px;
+}
+
+.news {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 25px;
+	margin-bottom: 14px;
+	align-items: center;
+}
+
+.about-me {
+	margin-left: 15px;
+	font-size: 45px;
+	margin-bottom: 5px;
+	color: rgb(0 155 255);
+
+}
+
+.img3{
+	width: 35%;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.img-sec3 {
+	width: 50%;
+	max-height: 65%;
+	margin-left: 15px;
+	margin-right: 15px;
+
+
+}
+
+.txt3 {
+
+	margin-left: 15px;
+	margin-right: 15px;
+
+}
+
+.last {
+	font-size: 40px;
+	text-decoration: bold;
+	color: rgb(0 155 255);
+}
+
+.video {
+	margin-left: 2vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+@media (max-width: 890px) {
+
+	.about-me {
+		font-size: 30px;
+	}
+
+	.txt3 {
+		font-size: 13px;
+	}
+
+	.video {
+		display: none;
+	}
+
+}
+
+
+/* Design de pied de page */
+footer {
+	width: 100vw;
+	height: 100px;
+	background-color: rgb(0 155 255);
+	box-shadow: 0px 0px 15px black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* liens footer */
+footer a {
+	color: black;
+	text-decoration: none;
+	margin: 25px;
+}
+
